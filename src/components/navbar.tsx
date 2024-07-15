@@ -14,7 +14,7 @@ const Navbar = () => {
               <NavbarIcon />
               <Link
                 href="/about"
-                className={`mx-8 ${poppins.className} text-base uppercase text-slate-600 max-sm:mx-4`}
+                className={`mx-8 ${poppins.className} text-base uppercase text-slate-600 max-sm:mx-4 max-md:hidden`}
                 passHref
               >
                 About

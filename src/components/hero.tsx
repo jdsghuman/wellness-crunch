@@ -24,14 +24,12 @@ const Hero = () => {
         fill
       />
       <div className="absolute max-w-[575px] bg-white bg-opacity-90 py-7 px-6">
-        <h1 className={`mt-1 ${poppins600.className} text-2xl text-slate-600`}>
+        <h1 className={`mt-1 ${poppins600.className} text-2xl`}>
           No time to keep up with the{" "}
           <span className="text-[#02ABD1]">latest</span> in{" "}
           <span className="text-[#02ABD1]">wellness news</span>?
         </h1>
-        <p
-          className={`mb-1 ${poppins400.className} text-slate-600 text-base mt-6 leading-4`}
-        >
+        <p className={`mb-1 ${poppins400.className} text-base mt-6 leading-4`}>
           <Button
             className={`p-0 hover:bg-slate-50 hover:bg-opacity-0 underline ${poppins600.className} text-lg focus:outline-none border-none`}
             variant="ghost"

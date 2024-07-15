@@ -8,9 +8,7 @@ const JoinUsSection = () => {
       <h3 className={`${poppins600.className} text-3xl max-xs:text-2xl`}>
         Why Wellness Crunch?
       </h3>
-      <p
-        className={`my-3 p-2 ${poppins600.className} text-xl text-slate-600 text-center`}
-      >
+      <p className={`my-3 p-2 ${poppins600.className} text-xl text-center`}>
         We make it a little easier to live a{" "}
         <span className="uppercase text-[#02ABD1]">healthier</span> life!{" "}
       </p>
