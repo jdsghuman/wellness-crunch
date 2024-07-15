@@ -1,14 +1,26 @@
+"use client";
+
+import { useState } from "react";
 import { Button } from "@components/components/ui/button";
 import Image from "next/image";
 import { poppins400, poppins600 } from "@/src/app/fonts";
+import { Skeleton } from "@components/components/ui/skeleton";
 
 const Hero = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div className="relative w-full h-[500px] max-sm:h-[400px] flex justify-center items-center">
+      {isLoading && <Skeleton className="inset-0 w-full h-full" />}
       <Image
         src="https://images.unsplash.com/photo-1454944338482-a69bb95894af?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Hero image"
         className="object-cover w-full h-full"
+        onLoad={handleImageLoad}
         fill
       />
       <div className="absolute max-w-[575px] bg-white bg-opacity-90 py-7 px-6">
