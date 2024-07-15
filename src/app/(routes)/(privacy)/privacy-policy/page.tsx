@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <Container>
       <div className={`flex flex-row justify-center max-md:flex-col`}>
-        <div className="flex-grow bg-[#D67FD3] md:max-w-[250px] max-md:w-full max-md:h-[120px] flex items-start justify-center text-white">
+        <div className="flex-grow bg-[#D67FD3] md:max-w-[250px] max-md:w-full max-md:h-[120px] flex items-start max-md:items-center justify-center text-white">
           <span className="uppercase transform -rotate-90 max-md:-rotate-0 whitespace-nowrap text-6xl max-md:text-3xl py-80">
             <h3>Privacy Policy</h3>
           </span>{" "}
