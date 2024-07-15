@@ -26,7 +26,7 @@ const Footer = () => {
   }
 
   return (
-    <footer className={`${poppins.className}`}>
+    <footer className={`mt-6 ${poppins.className}`}>
       <Container>
         <div className="flex flex-row justify-between items-center bg-[#F2F2F2]/60 w-full h-[200px] p-8 px-12 max-lg:px-6 max-md:px-4 max-md:flex-col max-md:items-center">
           <div>
