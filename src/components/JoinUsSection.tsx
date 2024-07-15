@@ -8,11 +8,13 @@ const JoinUsSection = () => {
       <h3 className={`${poppins600.className} text-3xl max-xs:text-2xl`}>
         Why Wellness Crunch?
       </h3>
-      <p className={`my-3 p-2 ${poppins600.className} text-xl text-center`}>
+      <p className={`my-4 p-2 ${poppins600.className} text-xl text-center`}>
         We make it a little easier to live a{" "}
         <span className="uppercase text-[#02ABD1]">healthier</span> life!{" "}
       </p>
-      <p className={`my-4 p-2 max-w-[650px] text-base ${poppins300.className}`}>
+      <p
+        className={`my-4 mt-0 p-2 px-3 max-w-[650px] text-base ${poppins300.className}`}
+      >
         <span className={`${poppins600.className}`}>Sign up</span> here to
         receive our weekly wellness newsletter. Receive wellness tips and
         advice, latest wellness news, challenges, product recommendations, and

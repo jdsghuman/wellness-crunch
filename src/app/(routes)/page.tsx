@@ -5,8 +5,10 @@ import Container from "@/src/components/ui/container";
 export default function Home() {
   return (
     <Container>
-      <Hero />
-      <JoinUsSection />
+      <div className="flex flex-col max-md:flex-col-reverse">
+        <Hero />
+        <JoinUsSection />
+      </div>
     </Container>
   );
 }
