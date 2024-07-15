@@ -25,10 +25,10 @@ const About = () => {
             Our team diligently sifts through data, recent research, and the
             latest trends to present you with concise, digestible information.
             In a world where social media can be overwhelming and trends can
-            often be more fad than fact, we're here to help you navigate through
-            the noise and make informed decisions for a healthier life. Join us
-            in our quest to distinguish fact from fiction and empower yourself
-            to live stronger and longer!
+            often be more fad than fact, we&apos;re here to help you navigate
+            through the noise and make informed decisions for a healthier life.
+            Join us in our quest to distinguish fact from fiction and empower
+            yourself to live stronger and longer!
           </p>
         </div>
         <div className="flex-grow bg-[#D67FD3] max-w-[140px]"></div>
