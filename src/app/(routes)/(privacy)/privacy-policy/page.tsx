@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <Container>
       <div className={`flex flex-row justify-center max-md:flex-col`}>
-        <div className="flex-grow bg-[#D67FD3] md:max-w-[250px] max-md:w-full max-md:h-[120px] flex items-center justify-center text-white">
+        <div className="flex-grow bg-[#D67FD3] md:max-w-[250px] max-md:w-full max-md:h-[120px] flex items-start justify-center text-white">
           <span className="uppercase transform -rotate-90 max-md:-rotate-0 whitespace-nowrap text-6xl max-md:text-3xl py-80">
             <h3>Privacy Policy</h3>
           </span>{" "}
@@ -100,6 +100,8 @@ const FAQ = () => {
           </ul>
           <p className={`my-4 mt-6 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>5. Data Security</span>{" "}
+          </p>
+          <p className={`my-2 ${poppins300.className} text-base`}>
             We implement a variety of security measures to protect your personal
             information. However, no method of transmission over the internet or
             electronic storage is completely secure, and we cannot guarantee
@@ -147,9 +149,11 @@ const FAQ = () => {
             encourage you to review this Privacy Policy periodically.
           </p>
           <p className={`my-4 mt-6 ${poppins300.className} text-base`}>
-            <span className={`${poppins600.className}`}>9. Contact Us</span> If
-            you have any questions or concerns about this Privacy Policy or our
-            data practices, please contact us at:
+            <span className={`${poppins600.className}`}>9. Contact Us</span>
+          </p>
+          <p className={`my-2 ${poppins300.className} text-base`}>
+            If you have any questions or concerns about this Privacy Policy or
+            our data practices, please contact us at:
           </p>
           <p className={`my-4 mt-6 ${poppins300.className} text-base`}>
             Wellness Crunch
