@@ -5,7 +5,7 @@ import Container from "@/src/components/ui/container";
 export default function Home() {
   return (
     <Container>
-      <div className="flex flex-col max-md:flex-col-reverse">
+      <div className="flex flex-col">
         <Hero />
         <JoinUsSection />
       </div>

@@ -5,6 +5,15 @@ import { Button } from "./ui/button";
 const JoinUsSection = () => {
   return (
     <section className="flex flex-col my-12 justify-center items-center">
+      <div className="mb-10 flex flex-row my-4 md:hidden">
+        <Input
+          placeholder="enter email"
+          className="rounded-none w-[275px] max-sm:w-[225px] text-base"
+        />
+        <Button className="bg-[#D67FD3] hover:bg-[#d472d1] h-9 h-10 rounded-none">
+          Subscribe
+        </Button>
+      </div>
       <h3 className={`${poppins600.className} text-3xl max-xs:text-2xl`}>
         Why Wellness Crunch?
       </h3>
@@ -20,7 +29,7 @@ const JoinUsSection = () => {
         advice, latest wellness news, challenges, product recommendations, and
         more — delivered directly to your inbox.
       </p>
-      <div className="flex flex-row my-4">
+      <div className="flex flex-row my-4 max-md:hidden">
         <Input
           placeholder="enter email"
           className="rounded-none w-[275px] max-sm:w-[225px] text-base"
