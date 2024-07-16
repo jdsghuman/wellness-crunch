@@ -4,6 +4,10 @@ import { poppins300, poppins600 } from "@/src/app/fonts";
 
 export const metadata: Metadata = {
   title: "Wellness Crunch | Privacy",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 const Privacy = () => {
