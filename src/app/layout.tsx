@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Wellness Crunch",
-  description: "We make it a little easier to live a HEALTHIER life!",
+  description:
+    "Stay updated with Wellness Crunch! Get the latest health trends, news, and product recommendations in just 5 minutes. Sign up for expert insights delivered to your inbox.",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

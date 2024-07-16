@@ -1,7 +1,12 @@
+import { Metadata } from "next";
 import Container from "@/src/components/ui/container";
 import { poppins300, poppins600 } from "@/src/app/fonts";
 
-const FAQ = () => {
+export const metadata: Metadata = {
+  title: "Wellness Crunch | Privacy",
+};
+
+const Privacy = () => {
   return (
     <Container>
       <div className={`flex flex-row justify-center max-md:flex-col`}>
@@ -176,4 +181,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Privacy;

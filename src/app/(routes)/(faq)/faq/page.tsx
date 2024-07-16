@@ -1,5 +1,10 @@
+import { Metadata } from "next";
 import Container from "@/src/components/ui/container";
 import { poppins300, poppins600 } from "@/src/app/fonts";
+
+export const metadata: Metadata = {
+  title: "Wellness Crunch | FAQ",
+};
 
 const FAQ = () => {
   return (
