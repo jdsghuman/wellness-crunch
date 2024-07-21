@@ -167,7 +167,7 @@ const Privacy = () => {
           <p className={`my-4 mt-6 ${poppins300.className} text-base`}>
             Wellness Crunch
           </p>{" "}
-          <p className={`my-2 mt-12 ${poppins300.className} text-base`}>
+          <p className={`my-2 mt-12 ${poppins600.className} text-base`}>
             info@thewellnesscrunch.com
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>

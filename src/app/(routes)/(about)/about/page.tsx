@@ -36,6 +36,17 @@ const About = () => {
             Join us in our quest to distinguish fact from fiction and empower
             yourself to live stronger and longer!
           </p>
+          <h2 className={`my-4 ${poppins600.className} text-base`}>
+            Contact Us
+          </h2>
+          <p className={`my-4 ${poppins300.className} text-base`}>
+            For more information or any inquiries, please contact us at{" "}
+            <span className={`${poppins600.className} underline`}>
+              <a href="mailto:info@thewellnesscrunch.com">
+                info@thewellnesscrunch.com.
+              </a>
+            </span>
+          </p>
         </div>
         <div className="flex-grow bg-[#D67FD3] max-w-[140px]"></div>
       </div>

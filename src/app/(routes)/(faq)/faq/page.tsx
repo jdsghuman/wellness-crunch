@@ -109,7 +109,11 @@ const FAQ = () => {
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
             If you have any questions or need support, you can contact us via
-            email at info@thewellnesscrunch.com. We are here to help!
+            email at{" "}
+            <span className={`my-2 ${poppins600.className}`}>
+              info@thewellnesscrunch.com
+            </span>
+            . We are here to help!
           </p>{" "}
           <p className={`mt-6 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>
@@ -140,8 +144,11 @@ const FAQ = () => {
             If you’re having trouble receiving our emails, please check your
             spam or junk folder. You can also add our email address to your
             contacts or whitelist to ensure delivery. If the issue persists,
-            please contact our support team for assistance or by emailing
-            info@thewellnesscrunch.com.
+            please contact our support team for assistance or by emailing{" "}
+            <span className={`my-2 ${poppins600.className}`}>
+              info@thewellnesscrunch.com
+            </span>
+            .
           </p>
         </div>
         <div className="flex-grow bg-[#D67FD3] max-w-[140px]"></div>
