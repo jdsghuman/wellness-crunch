@@ -12,7 +12,7 @@ const NavbarIcon = () => {
       >
         Wellness Crunch
       </Link>
-      <span className="block h-[2px] w-14 bg-[#D67FD3] mx-auto rounded-lg"></span>
+      <span className="block h-[2px] w-14 bg-[#e6c1e3] mx-auto rounded-lg"></span>
     </div>
   );
 };

@@ -30,8 +30,10 @@ const Hero = () => {
           <h1
             className={`mt-1 px-6 ${poppins600.className} text-2xl max-md:text-xl`}
           >
-            <span className="text-[#02ABD1] uppercase">Wellness Crunch</span> -
-            A weekly wellness newsletter delivered to your inbox
+            <span className="text-[#02ABD1] uppercase">
+              The Wellness Crunch
+            </span>
+            <br />A weekly wellness newsletter delivered to your inbox
           </h1>
           <p
             className={`mb-1 ${poppins400.className} mt-6 px-6 leading-6 text-base`}
@@ -45,9 +47,9 @@ const Hero = () => {
             </Button>
             &nbsp; to our weekly email updates and get the{" "}
             <span className={`${poppins600.className}`}>
-              freshest wellness news
+              latest wellness news
             </span>
-            &nbsp; and trends delivered straight to your inbox!
+            &nbsp;and trends delivered straight to your inbox!
           </p>
         </div>
       </div>

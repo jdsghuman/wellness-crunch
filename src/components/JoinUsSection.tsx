@@ -27,7 +27,7 @@ const JoinUsSection = () => {
           <h2
             className={`${poppins600.className} text-3xl max-xs:text-xl text-center`}
           >
-            Why Wellness Crunch?
+            Why <span className="uppercase">The Wellness Crunch</span>?
           </h2>
           <p
             className={`my-4 mt-0 p-2 px-3 max-w-[650px] text-xl max-xs:text-lg ${lato400.className} text-center mx-auto`}
@@ -43,7 +43,7 @@ const JoinUsSection = () => {
           className={`${poppins600.className} text-3xl max-xs:text-xl text-center relative px-2`}
         >
           What’s Inside THE WELLNESS CRUNCH Newsletter
-          <span className="block h-[3px] w-20 bg-[#D67FD3] mx-auto mt-4 rounded-lg"></span>
+          <span className="block h-[3px] w-20 bg-[#e6c1e3] mx-auto mt-4 rounded-lg"></span>
         </h3>
       </section>
       <section className="flex flex-col my-10 mt-4 justify-center items-center">
@@ -51,42 +51,43 @@ const JoinUsSection = () => {
           <div className="text-center px-12 py-8 max-sm:py-6 flex flex-col justify-center items-center">
             <p className={`${poppins600.className} mb-1`}>Stay Informed</p>
             <p className={`${poppins300.className}`}>
-              Get the latest updates on health and wellness news that matter to
-              you.
+              Highlights from the latest updates on health and wellness news
+              that matter to you.
             </p>
           </div>
           <div className="text-center px-12 py-8 max-sm:py-6 flex flex-col justify-center items-center">
-            <p className={`${poppins600.className} mb-1`}>Expert Insights</p>
+            <p className={`${poppins600.className} mb-1`}>Health Tips</p>
             <p className={`${poppins300.className}`}>
-              Receive practical tips and advice from industry-leading wellness
-              experts.
+              Receive practical tips and advice from wellness experts.
             </p>
           </div>
           <div className="text-center px-12 py-8 max-sm:py-6 flex flex-col justify-center items-center">
-            <p className={`${poppins600.className} mb-1`}>Top Picks</p>
+            <p className={`${poppins600.className} mb-1`}>Top Product Picks</p>
             <p className={`${poppins300.className}`}>
-              Discover the best health and wellness products, handpicked and
+              Discover the best health and wellness products, selected and
               reviewed by our team.
             </p>
           </div>
           <div className="text-center px-12 py-8 max-sm:py-6 flex flex-col justify-center items-center">
-            <p className={`${poppins600.className} mb-1`}>Nourishing Recipes</p>
+            <p className={`${poppins600.className} mb-1`}>Healthy Recipes</p>
             <p className={`${poppins300.className}`}>
-              Enjoy delicious and nutritious recipes to support your wellness
-              journey.
+              Receive delicious and nutritious recipes that have been tried and
+              tested by our team.
             </p>
           </div>
           <div className="text-center px-12 py-8 max-sm:py-6 flex flex-col justify-center items-center">
-            <p className={`${poppins600.className} mb-1`}>Fitness Buzz</p>
+            <p className={`${poppins600.className} mb-1`}>
+              Wellness Challenges
+            </p>
             <p className={`${poppins300.className}`}>
-              Stay on top of the latest fitness trends and workouts.
+              Participate in friendly challenges to motivate and inspire your
+              health journey.
             </p>
           </div>
           <div className="text-center px-12 py-8 max-sm:py-6 flex flex-col justify-center items-center">
-            <p className={`${poppins600.className} mb-1`}>Exclusive Offers</p>
+            <p className={`${poppins600.className} mb-1`}>Fitness Trends</p>
             <p className={`${poppins300.className}`}>
-              Access special deals and discounts on wellness products and
-              services.
+              Stay on top of the latest fitness trends, workouts and technology.
             </p>
           </div>
         </div>
