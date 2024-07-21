@@ -168,7 +168,7 @@ const Privacy = () => {
             Wellness Crunch
           </p>{" "}
           <p className={`my-2 mt-12 ${poppins300.className} text-base`}>
-            thewellnesscrunch@gmail.com
+            info@thewellnesscrunch.com
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
             By subscribing to our newsletter, you agree to the terms of this
