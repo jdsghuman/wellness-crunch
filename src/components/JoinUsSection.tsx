@@ -1,26 +1,34 @@
 import { Input } from "@components/components/ui/input";
+import { Label } from "@components/components/ui/label";
+
 import { poppins300, poppins600, lato400 } from "@/src/app/fonts";
 import { Button } from "./ui/button";
 
 const JoinUsSection = () => {
   return (
     <>
-      <section className="flex flex-col my-10 max-sm:my-8 justify-center items-center">
-        <div className="mb-10 flex flex-row my-4">
+      <section className="flex flex-col, my-10 max-sm:my-8 justify-center items-center">
+        <div className="flex flex-row my-4">
+          <Label className="sr-only" htmlFor="subscribe">
+            Subscribe
+          </Label>
           <Input
             placeholder="enter email"
+            id="subscribe"
             className="rounded-l-lg rounded-r-none w-[275px] max-sm:w-[225px] text-base"
           />
           <Button className="bg-[#D67FD3] hover:bg-[#d472d1] h-9 h-10 rounded-r-lg rounded-l-none ml-1">
             Subscribe
           </Button>
         </div>
+      </section>
+      <section className="flex flex-col, my-10 max-sm:my-8 mt-0 max-sm:mt-0 justify-center items-center">
         <div className="bg-gradient-to-r from-sky-50 to-sky-50 w-full text-center py-12 flex flex-col">
-          <h3
+          <h2
             className={`${poppins600.className} text-3xl max-xs:text-xl text-center`}
           >
             Why Wellness Crunch?
-          </h3>
+          </h2>
           <p
             className={`my-4 mt-0 p-2 px-3 max-w-[650px] text-xl max-xs:text-lg ${lato400.className} text-center mx-auto`}
           >
