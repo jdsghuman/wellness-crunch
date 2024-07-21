@@ -29,15 +29,10 @@ const Footer = () => {
     <footer className={`mt-6 ${poppins.className}`}>
       <Container>
         <div className="flex flex-row justify-between items-center bg-[#F2F2F2]/60 w-full h-[200px] p-8 px-12 max-lg:px-6 max-md:px-4 max-md:flex-col max-md:items-center">
-          <div>
-            <Link
-              href="/"
-              aria-label="home"
-              passHref
-              className={`${poppins600.className} text-lg uppercase`}
-            >
-              Wellness Crunch
-            </Link>
+          <div className="flex flex-col justify-center items-center">
+            <p className={`${poppins600.className} text-lg uppercase`}>
+              The Wellness Crunch
+            </p>
             <p className={`${poppins400.className} text-xs`}>
               &copy; {getCopyrightYear()}. All rights reserved.
             </p>
