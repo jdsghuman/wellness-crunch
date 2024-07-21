@@ -20,7 +20,7 @@ const Navbar = () => {
                 About
               </Link>
             </div>
-            <Button className="bg-[#8252ad] hover:bg-[#683396] h-9 rounded-xl">
+            <Button className="bg-[#8252ad] hover:bg-[#683396] h-9 rounded-xl text-base">
               Subscribe
             </Button>
           </nav>
