@@ -141,7 +141,7 @@ const FAQ = () => {
             spam or junk folder. You can also add our email address to your
             contacts or whitelist to ensure delivery. If the issue persists,
             please contact our support team for assistance or by emailing
-            wellnesscrunch@gmail.com.
+            thewellnesscrunch@gmail.com.
           </p>
         </div>
         <div className="flex-grow bg-[#D67FD3] max-w-[140px]"></div>
