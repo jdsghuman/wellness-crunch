@@ -85,6 +85,13 @@ const config = {
       "max-xs": { max: "400px" },
     },
   },
+  variants: {
+    extend: {
+      extend: {
+        backdropBlur: ["responsive"],
+      },
+    },
+  },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
 
