@@ -3,7 +3,7 @@ import Container from "@/src/components/ui/container";
 import { poppins300, poppins600 } from "@/src/app/fonts";
 
 export const metadata: Metadata = {
-  title: "Wellness Crunch | FAQ",
+  title: "The Wellness Crunch | FAQ",
 };
 
 const FAQ = () => {
@@ -21,18 +21,18 @@ const FAQ = () => {
           </h1>
           <p className={`mt-4 mt-12 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>
-              1. What is Wellness Crunch?
+              1. What is The Wellness Crunch?
             </span>{" "}
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
-            Wellness Crunch is a digital email marketing service dedicated to
-            bringing you the latest health and wellness news, trends, and
+            The Wellness Crunch is a digital email marketing service dedicated
+            to bringing you the latest health and wellness news, trends, and
             product recommendations. We provide quick, 5-minute weekly updates
             to help you live a healthier life.
           </p>
           <p className={`mt-6 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>
-              2. How often will I receive emails from Wellness Crunch?{" "}
+              2. How often will I receive emails from The Wellness Crunch?{" "}
             </span>{" "}
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
@@ -42,7 +42,7 @@ const FAQ = () => {
           </p>{" "}
           <p className={`mt-6 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>
-              3. How do I subscribe to the Wellness Crunch newsletter?
+              3. How do I subscribe to The Wellness Crunch newsletter?
             </span>{" "}
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
@@ -52,7 +52,7 @@ const FAQ = () => {
           </p>
           <p className={`mt-6 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>
-              4. Is my personal information safe with Wellness Crunch?
+              4. Is my personal information safe with The Wellness Crunch?
             </span>{" "}
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
@@ -103,7 +103,7 @@ const FAQ = () => {
           </p>{" "}
           <p className={`mt-6 ${poppins300.className} text-base`}>
             <span className={`${poppins600.className}`}>
-              9. How can I contact Wellness Crunch for more information or
+              9. How can I contact The Wellness Crunch for more information or
               support?
             </span>{" "}
           </p>

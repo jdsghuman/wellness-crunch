@@ -3,8 +3,8 @@ import Container from "@/src/components/ui/container";
 import { poppins300, poppins600 } from "@/src/app/fonts";
 
 export const metadata: Metadata = {
-  title: "Wellness Crunch | About",
-  description: "Learn more about Wellness Crunch and our mission.",
+  title: "The Wellness Crunch | About",
+  description: "Learn more about The Wellness Crunch and our mission.",
 };
 
 const About = () => {
@@ -18,10 +18,10 @@ const About = () => {
         </div>
         <div className="w-full max-w-[900px] px-12 max-sm:px-4 py-8">
           <h1 className={`${poppins600.className} text-3xl`}>
-            Welcome to <span className="uppercase">Wellness Crunch!</span>
+            Welcome to <span className="uppercase">The Wellness Crunch!</span>
           </h1>
           <p className={`my-4 mt-12 ${poppins300.className} text-base`}>
-            At Wellness Crunch, we are dedicated to bringing you the most
+            At The Wellness Crunch, we are dedicated to bringing you the most
             relevant health and wellness news, trends, and product
             recommendations in quick, 5-minute weekly updates. We understand
             your busy lifestyle, and our mission is to simplify healthy living,

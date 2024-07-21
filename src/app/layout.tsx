@@ -8,9 +8,9 @@ import Footer from "@components/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wellness Crunch",
+  title: "The Wellness Crunch",
   description:
-    "Stay updated with Wellness Crunch! Get the latest health trends, news, and product recommendations in just 5 minutes. Sign up for expert insights delivered to your inbox.",
+    "Stay updated with The Wellness Crunch! Get the latest health trends, news, and product recommendations in just 5 minutes. Sign up for expert insights delivered to your inbox.",
   twitter: {
     card: "summary_large_image",
   },

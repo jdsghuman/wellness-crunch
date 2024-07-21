@@ -3,7 +3,7 @@ import Container from "@/src/components/ui/container";
 import { poppins300, poppins600 } from "@/src/app/fonts";
 
 export const metadata: Metadata = {
-  title: "Wellness Crunch | Privacy",
+  title: "The Wellness Crunch | Privacy",
   robots: {
     index: false,
     follow: true,
@@ -30,7 +30,7 @@ const Privacy = () => {
             <span className={`${poppins600.className}`}>1. Introduction</span>{" "}
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
-            Welcome to Wellness Crunch. We are committed to protecting your
+            Welcome to The Wellness Crunch. We are committed to protecting your
             privacy and ensuring that your personal information is handled in a
             safe and responsible manner. This Privacy Policy outlines how we
             collect, use, and protect your personal information when you
@@ -168,7 +168,7 @@ const Privacy = () => {
             Wellness Crunch
           </p>{" "}
           <p className={`my-2 mt-12 ${poppins300.className} text-base`}>
-            wellnesscrunch@gmail.com
+            thewellnesscrunch@gmail.com
           </p>
           <p className={`my-2 ${poppins300.className} text-base`}>
             By subscribing to our newsletter, you agree to the terms of this
