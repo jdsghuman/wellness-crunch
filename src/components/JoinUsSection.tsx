@@ -17,7 +17,7 @@ const JoinUsSection = () => {
             id="subscribe"
             className="rounded-l-lg rounded-r-none w-[275px] max-sm:w-[225px] text-base"
           />
-          <Button className="bg-[#D67FD3] hover:bg-[#d472d1] h-9 h-10 rounded-r-lg rounded-l-none ml-1">
+          <Button className="bg-[#444444] hover:bg-[#292929] h-9 h-10 rounded-r-lg rounded-l-none ml-1">
             Subscribe
           </Button>
         </div>
@@ -99,7 +99,7 @@ const JoinUsSection = () => {
             The Wellness Crunch
           </h3>
           <div className="mt-6">
-            <Button className="bg-[#D67FD3] hover:bg-[#d472d1] h-9 rounded-xl">
+            <Button className="bg-[#444444] hover:bg-[#292929] h-9 rounded-xl">
               Subscribe
             </Button>
           </div>
