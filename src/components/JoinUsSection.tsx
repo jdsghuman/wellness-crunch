@@ -100,7 +100,7 @@ const JoinUsSection = () => {
             The Wellness Crunch
           </h3>
           <div className="mt-6">
-            <Button className="bg-[#386FA4] hover:bg-[#133C55] h-9 rounded-xl px-8 py-5 text-base">
+            <Button className="bg-[#386FA4] hover:bg-[#133C55] h-9 rounded-lg px-8 py-5 text-base">
               Subscribe
             </Button>
           </div>
