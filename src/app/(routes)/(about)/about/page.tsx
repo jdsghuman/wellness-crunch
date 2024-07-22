@@ -11,7 +11,7 @@ const About = () => {
   return (
     <Container>
       <div className={`flex flex-row justify-center max-md:flex-col`}>
-        <div className="flex-grow bg-[#D67FD3] md:max-w-[250px] max-md:w-full max-md:h-[120px] flex items-center justify-center text-white">
+        <div className="flex-grow bg-[#133C55] md:max-w-[250px] max-md:w-full max-md:h-[120px] flex items-center justify-center text-white">
           <span className="uppercase transform -rotate-90 max-md:-rotate-0 whitespace-nowrap text-6xl max-md:text-3xl py-80">
             <h3>About us</h3>
           </span>{" "}
@@ -48,7 +48,7 @@ const About = () => {
             </span>
           </p>
         </div>
-        <div className="flex-grow bg-[#D67FD3] max-w-[140px]"></div>
+        <div className="flex-grow bg-[#133C55] max-w-[140px]"></div>
       </div>
     </Container>
   );

@@ -17,7 +17,7 @@ const JoinUsSection = () => {
             id="subscribe"
             className="rounded-l-lg rounded-r-none w-[275px] max-sm:w-[225px] text-base"
           />
-          <Button className="bg-[#b5089e] hover:bg-[#9b0787] h-9 h-10 rounded-r-lg rounded-l-none ml-1 text-base">
+          <Button className="bg-[#386FA4] hover:bg-[#133C55] h-9 h-10 rounded-r-lg rounded-l-none ml-1 text-base">
             Subscribe
           </Button>
         </div>
@@ -43,7 +43,7 @@ const JoinUsSection = () => {
           className={`${poppins600.className} text-3xl max-xs:text-xl text-center relative px-2`}
         >
           What’s Inside THE WELLNESS CRUNCH Newsletter
-          <span className="block h-[3px] w-20 bg-[#e6c1e3] mx-auto mt-4 rounded-lg"></span>
+          <span className="block h-[3px] w-20 bg-[#EA7AF4] mx-auto mt-4 rounded-lg"></span>
         </h3>
       </section>
       <section className="flex flex-col my-10 mt-4 justify-center items-center">
@@ -100,7 +100,7 @@ const JoinUsSection = () => {
             The Wellness Crunch
           </h3>
           <div className="mt-6">
-            <Button className="bg-[#b5089e] hover:bg-[#9b0787] h-9 rounded-xl px-8 py-5 text-base">
+            <Button className="bg-[#386FA4] hover:bg-[#133C55] h-9 rounded-xl px-8 py-5 text-base">
               Subscribe
             </Button>
           </div>

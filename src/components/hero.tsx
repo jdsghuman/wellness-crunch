@@ -30,7 +30,7 @@ const Hero = () => {
           <h1
             className={`mt-1 px-6 ${poppins600.className} text-2xl max-md:text-xl`}
           >
-            <span className="text-[#02ABD1] uppercase">
+            <span className="text-[#133C55] uppercase">
               The Wellness Crunch
             </span>
             <br />A weekly wellness newsletter delivered to your inbox
