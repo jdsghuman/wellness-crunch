@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@components/components/navbar";
 import Footer from "@components/components/footer";
+import ToastProvider from "@components/providers/toast-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +27,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
+        <ToastProvider />
         {children}
+        <GoogleAnalytics gaId="G-K74CJFTVS1" />
         <Analytics />
         <Footer />
       </body>
