@@ -7,7 +7,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { Input } from "@components/components/ui/input";
-import { Label } from "@components/components/ui/label";
 import {
   Form,
   FormControl,
@@ -15,16 +14,19 @@ import {
   FormItem,
   FormMessage,
 } from "@components/components/ui/form";
+import confetti from "canvas-confetti";
+import { SubscribeModal } from "@components/components/modals/subscribe-modal";
 
 import { poppins300, poppins600, lato400 } from "@/src/app/fonts";
 import { Button } from "./ui/button";
-import confetti from "canvas-confetti";
 
 const formSchema = z.object({
   email: z.string().min(1, "Email is required").email("Invalid email"),
 });
 
 const JoinUsSection = () => {
+  const [open, setOpen] = useState(false);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -108,6 +110,11 @@ const JoinUsSection = () => {
 
   return (
     <>
+      <SubscribeModal
+        onConfirm={() => setOpen(false)}
+        isOpen={open}
+        onClose={() => setOpen(false)}
+      />
       <section className="flex flex-col, my-10 max-sm:my-8 justify-center items-center">
         <div className="flex flex-row my-4">
           <Form {...form}>
@@ -220,7 +227,10 @@ const JoinUsSection = () => {
             The Wellness Crunch
           </h3>
           <div className="mt-6">
-            <Button className="bg-[#386FA4] hover:bg-[#133C55] h-9 rounded-lg px-8 py-5 text-base">
+            <Button
+              onClick={() => setOpen(true)}
+              className="bg-[#386FA4] hover:bg-[#133C55] h-9 rounded-lg px-8 py-5 text-base"
+            >
               Subscribe
             </Button>
           </div>
