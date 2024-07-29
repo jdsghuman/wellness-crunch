@@ -76,13 +76,23 @@ const Footer = () => {
               <RiTwitterXFill size={18} />
             </Button>
             <Button className="mx-2 w-8 h-8" size="icon">
-              <RxInstagramLogo size={18} />
+              <Link
+                href="https://www.instagram.com/the_wellness_crunch/"
+                target="_blank"
+              >
+                <RxInstagramLogo size={18} />
+              </Link>
             </Button>
             <Button className="mx-2 w-8 h-8" size="icon">
               <RiFacebookBoxFill size={18} />
             </Button>
             <Button className="mx-2 w-8 h-8" size="icon">
-              <FaLinkedin size={18} />
+              <Link
+                href="https://www.linkedin.com/company/the-wellness-crunch/"
+                target="_blank"
+              >
+                <FaLinkedin size={18} />
+              </Link>
             </Button>
           </div>
         </div>
