@@ -72,24 +72,26 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex flex-row">
-            <Button className="mx-2 w-8 h-8" size="icon">
-              <RiTwitterXFill size={18} />
+            <Button className="mx-2 w-8 h-8" size="icon" aria-label="Twitter">
+              <Link href="https://x.com/wellnesscrunch" target="_blank">
+                <RiTwitterXFill size={18} aria-label="Twitter" />
+              </Link>
             </Button>
-            <Button className="mx-2 w-8 h-8" size="icon">
+            <Button className="mx-2 w-8 h-8" size="icon" aria-label="Instagram">
               <Link
                 href="https://www.instagram.com/the_wellness_crunch/"
                 target="_blank"
+                aria-label="Instagram"
               >
                 <RxInstagramLogo size={18} />
               </Link>
             </Button>
-            <Button className="mx-2 w-8 h-8" size="icon">
-              <RiFacebookBoxFill size={18} />
-            </Button>
-            <Button className="mx-2 w-8 h-8" size="icon">
+
+            <Button className="mx-2 w-8 h-8" size="icon" aria-label="LinkedIn">
               <Link
                 href="https://www.linkedin.com/company/the-wellness-crunch/"
                 target="_blank"
+                aria-label="LinkedIn"
               >
                 <FaLinkedin size={18} />
               </Link>

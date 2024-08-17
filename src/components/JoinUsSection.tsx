@@ -13,6 +13,7 @@ import {
   FormField,
   FormItem,
   FormMessage,
+  FormLabel,
 } from "@components/components/ui/form";
 import confetti from "canvas-confetti";
 import { SubscribeModal } from "@components/components/modals/subscribe-modal";
@@ -122,6 +123,9 @@ const JoinUsSection = () => {
               className="flex flex-row"
               onSubmit={form.handleSubmit(onSubmit)}
             >
+              <FormLabel htmlFor="subscribe" className="sr-only">
+                Email
+              </FormLabel>
               <FormField
                 control={form.control}
                 name="email"
@@ -161,7 +165,9 @@ const JoinUsSection = () => {
           >
             We know you are busy, we make it easier for you to stay on top of
             the latest{" "}
-            <span className={`text-[#02ABD1]`}>health and wellness news</span>.
+            <span className={`text-[#02ABD1]`}>
+              health and wellness news, trends, recipes and more!
+            </span>
           </p>
         </div>
       </section>
